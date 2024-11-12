@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p, ul {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Car Categories */
+.car-category {
+    margin-top: 10px;
+}
+
+.car-category h3 {
+    color: #555;
+}
+
+.car-category ul {
+    list-style-type: none;
+}
+
+/* Services & Reasons */
+#services ul, #why-choose-us .reason {
+    margin: 10px 0;
+}
+
+.reason {
+    margin-bottom: 15px;
+}
+
+/* Locations */
+#locations ul {
+    list-style-type: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
